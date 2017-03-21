@@ -1,0 +1,93 @@
+
+/*通用样式*/
+
+body,p,ul,div,li,dl,dt,dd,button,input,img{margin: 0;padding: 0;}
+
+h1,h2,h3{font-weight: normal;}
+
+a{text-decoration: none;cursor: pointer;}
+
+textarea, input {
+                word-wrap: break-word;
+                word-break: break-all;}
+
+ul, li {list-style: none;}
+
+a, button, input {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;}
+
+input, textarea, img, button {border: 0;outline: none;}
+
+img{vertical-align: middle;}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {
+        -webkit-appearance: none;}
+
+i,em,cite{font-style: normal;}
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+.abs{position: absolute;}
+
+.rel {position: relative;}
+
+.clear {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;}
+
+.bz{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}    
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+        display: block;
+        overflow: hidden;
+        clear: both;
+        height: 0;
+        visibility: hidden;
+        content: ".";}
+
+.wzsl {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;}
+
+.word-break {
+    word-wrap: break-word;
+    word-break: break-all;}
+
+.base-wrap{
+            min-width: 320px;
+            max-width: 960px;
+            margin: 0 auto;}
+
+.f-12 {font-size: 12px;}
+
+.f-13 {font-size: 13px;}
+
+.f-14 {font-size: 14px;}
+
+.f-15 {font-size: 15px;}
+
+.f-16 {font-size: 16px;}
+
+.c858 {color: #858585;}
+
+.c333{color: #333;}
+
+.cfff{color: #fff;}
+
+
+
+

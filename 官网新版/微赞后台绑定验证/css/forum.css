@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+body{
+    background-color:#f3f3f3 ;
+    min-width: 1100px;
+}
+.fullWidth{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*forum-one*/
+.forum-one{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #dedede;
+}
+.forum-one a{
+    display: inline-block;
+    height: 100%;
+    color: #333;
+}
+.forum-one a:hover{
+    color: #333;
+}
+
+.forum-one-fenge{
+    display:block;
+    height: 14px;
+    border-left: 1px solid #dedede;
+    margin:16px 10px 0 ;
+}
+/*forum-two*/
+.forum-two{
+    background-color: #fff;
+    width: 100%;
+    padding: 30px 0 20px 0;
+}
+.forum-two-small-tu{
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #2e82ff;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    padding: 4px 1px 0;
+    vertical-align: 45px;
+}
+.forum-two-laba{
+    padding-top: 60px;
+    color: #333;
+}
+.forum-two-laba>img{
+    vertical-align: -2px;
+    margin-right: 2px;
+}
+.forum-two-laba>span{
+    color: #2e82ff;
+}
+
+/*forum-three*/
+.forum-three{
+    width: 100%;
+    height: 48px;
+    background-color: #2e82ff;
+}
+.forum-three-nav li{
+    width: 120px;
+    height: 100%;
+    line-height: 48px;
+    text-align: center;
+}
+.forum-three-nav >li>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.forum-three-nav >li>a:hover{
+    background-color: #0067ff;
+}
+/*forum-four*/
+.forum-four-kuang{
+    width: 1000px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin: 10px 0 20px 0;
+}
+.forum-four-ding{
+    margin-top: 20px;
+}
+.forum-four-kuang-user{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.forum-four-kuang-img{
+    width: 100%;
+}
+.forum-four-kuang-ceng{
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.forum-four-kuang-name{
+    padding: 0 0 0 30px;
+    line-height: 22px;
+}
+
+.forum-four-kuang-name .name{
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.forum-four-kuang-name span{
+    width: 56px;
+    display: inline-block;
+    margin-right: 10px;}
+
+.forum-four-kuang-name i{color: #333;}    
+
+.xiugai-bt{
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    background: #f9f9f9;
+}
+
+.xiugai-bt:hover{background: #f3f3f3;}
+
+.forum-three-content{
+   padding: 15px 0;
+
+}
+.forum-three-content-001{
+    padding: 15px 0 0 12px;
+}
+
+.blue-bt{
+    font-size: 14px;
+    color: #27f;
+    margin-left: 15px;
+}
+
+.forum-three-content-001 .pic img{
+    display: block;
+    width: 56px;}
+
+.forum-three-content-zi{
+    margin-left: 46px;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+.forum-three-content-zi img{
+    width: 15px;
+    vertical-align: -2px;}
+
+.forum-three-content-zi>span{
+    vertical-align: 2px;
+}
+
+/*forum-five*/
+.forum-five-anquan{
+    width: 100%;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    border-bottom: 0;
+}
+.forum-five-anquan-new{
+    height: 46px;
+    width: 100%;
+    line-height: 46px;
+    background-color: #f3f3f3;
+    border: 1px solid #dedede;
+    border-bottom: none;
+}
+.forum-five-anquan-new-img{
+    vertical-align: -2px;
+    margin: 0 2px 0 30px;
+}
+.forum-five-anquan-p{
+    height:46px;
+    margin: 0 30px;
+    line-height: 46px;
+}
+
+.forum-five-anquan-p p:first-child{
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.forum-five-anquan-p1{
+    width: 1040px;
+    height:64px;
+    margin: 0 30px;
+    line-height: 64px;
+}
+
+.forum-five-anquan-p{
+    border-bottom: 1px dashed #dedede ;
+}
+
+.forum-five-anquan-p span{font-size: 12px;}
+
+.forum-five-anquan .forum-five-anquan-p:last-child{border-bottom: none;}
+
+.forum-five-anquan-p-new{
+    font-size: 12px;
+    color: #ff4343;
+    left: 5px;
+    top: -7px;
+    font-weight: bold;
+}
+.forum-five-anquan-more{
+    padding-bottom: 15px;
+    display: block;
+    text-align: center;
+    background: #fff;
+}
+/*forum-six*/
+.forum-six{
+    text-align: center;
+    margin-top: 78px;
+}
+.forum-six-p{
+    margin: 5px 0 30px;
+}
+

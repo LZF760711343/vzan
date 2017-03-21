@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*通用样式*/
+body,p,ul,div,li,button,input{margin: 0;padding: 0;}
+a{text-decoration: none;color: #333333;}
+img{border: none;display: block;}
+ul{padding-left: 0;}
+li{list-style-type: none;}
+body{font-family: Microsoft YaHei;font-size: 12px;color: #32312f;}
+.fl{float: left;}
+.fr{float: right;}
+.cursor{cursor: pointer;}
+
+.header{height: 414px;background: url(../images/bg.jpg) top center;}
+.wrap_header{margin: 0 auto;width: 1040px;height: 414px;position: relative;}
+.wrap_header_left{margin-top: 74px;}
+
+.download_pic{
+				margin-top: 98px;
+				margin-left: 5px;
+				display: block;}
+
+.download_pic i{
+				width: 234px;
+				height: 66px;
+				display: inline-block;
+				cursor: pointer;}
+
+.gw-android-download{
+	background: url(../images/gw-01.png) no-repeat -5px -2029px;}
+
+.gw-apple-download{
+	background: url(../images/gw-01.png) no-repeat -5px -2115px;}
+
+
+.mobile{position: absolute;bottom: 0;right: 0;}
+.wrap{margin: 0 auto;width: 1040px;text-align: center;}
+.vision{margin: 0 auto;margin-top: 87px;font-size: 60px;color: #acd9ff;}
+.vision_f{margin-top: 17px;margin-bottom: 71px;font-size: 26px;line-height: 60px;}
+.icon_pic{display: table;width: 1040px;}
+.shang{margin: 0 193px;}
+.line{margin: 0 auto;}
+.tiyan{margin-top: 87px;font-size: 60px;color: #bee275;}
+.tiyan_f{margin-top: 17px;margin-bottom: 80px;font-size: 26px;line-height: 60px;}
+.jiemian{margin: 0 auto;}
+.mb{margin-bottom: 111px;}
+.download_f{margin-top: 215px;font-size: 37px;}
+.download_f_2{color: #fab735;cursor: pointer;}
+.qr{margin: 0 auto;margin-top: 90px;}
+.saoma{margin-top: 16px;margin-bottom: 110px;font-size: 20px;color: #858585;}

@@ -1,0 +1,300 @@
+@charset "utf-8";
+/*通用样式*/
+
+
+body,div,ul,li,p,form,fieldset,legend,input,textarea,img,section,article,button,textarea{ padding:0; margin:0;}
+
+body {
+    font-family: "Microsoft YaHei",Arial!important;
+    color: black;}
+
+i, cite, em, var{font-style: normal;}
+
+a{text-decoration: none;cursor: pointer;}
+
+a, button, input,textarea{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;}
+
+input,button {
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;}
+
+ul, li {
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+fieldset，img{
+    vertical-align: middle;
+    border: none;}
+
+.fr{float: right;}
+
+.fl{float: left;}
+
+.abs{position: absolute;}
+
+.rel{position: relative;}
+
+.clear {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.clearfix {*zoom: 1;}
+
+
+.clearfix:after {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: ".";}
+
+.wzsl {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+
+.f-10rem{font-size: 1.0rem;}
+
+.f-11rem{font-size: 1.1rem;}
+
+.f-12rem{font-size: 1.2rem;}
+
+.f-13rem{font-size: 1.3rem;}
+
+.f-14rem{font-size: 1.4rem;}
+
+.f-15rem{font-size: 1.5rem;}
+
+.f-16rem{font-size: 1.6rem;}
+
+.f-17rem{font-size: 1.7rem;}
+
+.f-18rem{font-size: 1.8rem;}
+
+.d-flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;}
+
+.flex{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;}
+
+.d-flex-center{
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;}
+
+.c858 {color: #858585;}
+
+.cfff{color: #fff;}
+
+.bg-f{background: #fff;}
+
+.base-wrap{
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;}
+
+.word-break{
+    word-wrap:break-word;
+    word-break:break-all;}
+
+.bz{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+
+/*泽峰自己添加的基础样式*/
+.db{display: block;}
+
+.text-align{text-align: center;}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {
+        -webkit-appearance: none;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea {
+    font:12px "Microsoft YaHei",Arial;
+}
+
+/* 去掉各Table cell 的边距并让其边重合 */
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* IE bug fixed: th 不继承 text-align*/
+th {text-align:inherit;}
+
+/* 统一上标和下标 */
+sub, sup {
+    font-size:75%;
+    line-height:0;
+    position:relative;
+    vertical-align:baseline;
+}
+
+sup{top:-0.5em;}
+
+sub{bottom:-0.25em;}
+
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+q:before,q:after{content:'';}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,canvas,video {
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.co33{color: #333;}
+.co99{color: #999;}
+
+a{
+    color: #ffffff;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.f-7px{font-size: 7px;}
+
+.f-8px{font-size: 8px;}
+
+.f-9px{font-size: 9px;}
+
+.f-10px{font-size: 10px;}
+
+.f-11px{font-size: 11px;}
+
+.f-12px{font-size: 12px;}
+
+.f-13px{font-size: 13px;}
+
+.f-14px{font-size: 14px;}
+
+.f-15px{font-size: 15px;}
+
+.f-16px{font-size: 16px;}
+
+.f-17px{font-size: 17px;}
+
+.f-18px{font-size: 18px;}
+
+.f-19px{font-size: 19px;}
+
+.f-20px{font-size: 20px;}
+
+.mag-t5{margin-top: 5px}
+
+.mag-t6{margin-top: 6px}
+
+.mag-t7{margin-top: 7px}
+
+.mag-t8{margin-top: 8px}
+
+.mag-t9{margin-top: 9px}
+
+.mag-t10{margin-top: 10px}
+
+.mag-t11{margin-top: 11px}
+
+.mag-t12{margin-top: 12px}
+
+.mag-t13{margin-top: 13px}
+
+.mag-t14{margin-top: 14px}
+
+.mag-t15{margin-top: 15px}
+
+.mag-t16{margin-top: 16px}
+
+.mag-t17{margin-top: 17px}
+
+.mag-t18{margin-top: 18px}
+
+.mag-b5{margin-bottom: 5px}
+
+.mag-b6{margin-bottom: 6px}
+
+.mag-b7{margin-bottom: 7px}
+
+.mag-b8{margin-bottom: 8px}
+
+.mag-b9{margin-bottom: 9px}
+
+.mag-b10{margin-bottom: 10px}
+
+.mag-b11{margin-bottom: 11px}
+
+.mag-b12{margin-bottom: 12px}
+
+.mag-b13{margin-bottom: 13px}
+
+.mag-b14{margin-bottom: 14px}
+
+.mag-b15{margin-bottom: 15px}
+
+.mag-b16{margin-bottom: 16px}
+
+.mag-b17{margin-bottom: 17px}
+
+.mag-b18{margin-top: 18px}
+
+.mag-L5{margin-left: 5px}
+
+.mag-L6{margin-left: 6px}
+
+.mag-L7{margin-left: 7px}
+
+.mag-L8{margin-left: 8px}
+
+.mag-L9{margin-left: 9px}
+
+.mag-L10{margin-left: 10px}
+
+.mag-R5{margin-right: 5px}
+
+.mag-R6{margin-right: 6px}
+
+.mag-R7{margin-right: 7px}
+
+.mag-R8{margin-right: 8px}
+
+.mag-R9{margin-right: 9px}
+
+.mag-R10{margin-right: 10px}
+
+
+
+
+

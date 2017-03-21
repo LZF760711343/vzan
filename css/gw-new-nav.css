@@ -1,0 +1,14 @@
+	.active .index-nav-ul-a:hover {color: #333;}
+	.arrow-down {border-color: #333;}
+ 	.index-nav-ul>li>a{position: relative;z-index: 10;}
+	.product-list {z-index: 5; background: #e5e5e5;}
+	.index-nav-a{color: #30afff;border: 1px solid #30afff;}
+	.index-nav-ul li.active:hover .arrow-down {border-color: #333;}
+	.active .product-list li a{color: #333;}
+	.active .product-list li a:hover{color: #30afff;}
+	.index-nav-as {margin-top: 20px;margin-right: 0;}
+	.new-gw-nav{width: 1040px;position: relative;margin: 0 auto;z-index: 100;}
+	.new-gw-nav .logo{margin:0 30px 0 -50px;vertical-align: -15px;display: inline-block;}
+	.index-nav-vzan{height: auto;font-size: 14px;position: relative;}
+	.index-nav-as{margin-top: 18px;margin-right: 0;}
+	.kefu-tk02{right: 0px;position: absolute;box-shadow: 0 0 10px #d6d6d6;}

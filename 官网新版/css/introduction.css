@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*微赞同城开始*/
+.introduction-module-one{
+    width: 100%;
+    height: 800px;
+    background: url(../images/introduction-01-01.jpg) no-repeat top center;
+}
+.introduction-module-one-kuang{
+    width: 900px;
+    margin: 0 auto;
+}
+.introduction-module-one-kuang-p{
+    width: 500px;
+    height:500px;
+    margin: 250px  auto 0 auto;
+    text-align: center;
+}
+.introduction-module-one-kuang-p p:nth-child(1){
+    font-size: 90px;
+}
+.introduction-module-one-kuang-p p:nth-child(2){
+    font-size: 34px;
+    margin: 10px auto 20px;
+}
+/*微赞同城结束*/
+
+/*功能介绍开始*/
+.introduction-module-two{
+    width: 100%;
+    height: 500px;
+    padding: 40px 0 40px 0;
+}
+.introduction-module-two-kuang{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.introduction-module-two-kuang >p:nth-child(1){
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.introduction-module-two-kuang >p:nth-child(2){
+    text-align: center;
+    font-size: 18px;
+}
+.introduction-module-two-kuang-content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.introduction-module-two-kuang-content-1{
+    display: inline-block;
+    width: 24%;
+    height: 110px;
+    margin-top: 28px;
+    text-align: center;
+}
+.introduction-module-two-kuang-content-1p{
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+/*功能介绍结束*/
+
+/*竞争力开始*/
+.introduction-module-three{
+    width: 100%;
+    height: 690px;
+    background-color: #f0f0f0;
+    padding-top: 40px;
+}
+.introduction-module-three-kuang-content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.introduction-module-three-kuang-content-div{
+    width: 230px;
+    height:230px;
+    background: #fff;
+    display: inline-block;
+    margin:20px 8px;
+    text-align: center;
+    border-radius: 2px;
+}
+.introduction-module-three-kuang-content-div >img{
+    margin:48px 0 40px 0
+}
+.introduction-module-three-kuang-content-pp1{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333
+}
+/*竞争力结束*/
